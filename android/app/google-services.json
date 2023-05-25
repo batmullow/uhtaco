@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "547910979291",
+    "project_id": "tacos-4b6e7",
+    "storage_bucket": "tacos-4b6e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547910979291:android:f9c37a7315de35d017c6fe",
+        "android_client_info": {
+          "package_name": "Robin.Job.Posts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8RUm5dlyISjwtzmTBWnBmJPlNcdUjTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547910979291-gevfgm3bmck4h9g87er4d490j4oj2g2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Job.Posts"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547910979291:android:20af187b854c973717c6fe",
+        "android_client_info": {
+          "package_name": "com.ivan.taco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547910979291-ghg614h28bfehmcsbp0vt44ot9kijlr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivan.taco",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8RUm5dlyISjwtzmTBWnBmJPlNcdUjTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547910979291-gevfgm3bmck4h9g87er4d490j4oj2g2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Job.Posts"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547910979291:android:d25d29997d9f33b317c6fe",
+        "android_client_info": {
+          "package_name": "com.mycompany.taco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8RUm5dlyISjwtzmTBWnBmJPlNcdUjTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547910979291-gevfgm3bmck4h9g87er4d490j4oj2g2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Job.Posts"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
