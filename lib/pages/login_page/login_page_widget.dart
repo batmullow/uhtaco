@@ -286,8 +286,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                     onPressed: () async {
                                       GoRouter.of(context).prepareAuthEvent();
 
-                                      final user =
-                                          await authManager.signInWithEmail(
+                                      final user = await authManager
+                                          .createAccountWithEmail(
                                         context,
                                         _model.emailAddressController.text,
                                         _model.passwordController.text,

@@ -1,8 +1,10 @@
+import '/flutter_flow/flutter_flow_swipeable_stack.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:swipeable_card_stack/swipeable_card_stack.dart';
 import 'home_page_model.dart';
 export 'home_page_model.dart';
 
@@ -59,7 +61,30 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           top: true,
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            children: [],
+            children: [
+              Expanded(
+                child: FlutterFlowSwipeableStack(
+                  topCardHeightFraction: 0.72,
+                  middleCardHeightFraction: 0.68,
+                  bottomCardHeightFraction: 0.75,
+                  topCardWidthFraction: 0.9,
+                  middleCardWidthFraction: 0.85,
+                  bottomCardWidthFraction: 0.8,
+                  onSwipeFn: (index) {},
+                  onLeftSwipe: (index) {},
+                  onRightSwipe: (index) {},
+                  onUpSwipe: (index) {},
+                  onDownSwipe: (index) {},
+                  itemBuilder: (context, index) {
+                    return [][index]();
+                  },
+                  itemCount: 0,
+                  controller: _model.swipeableStackController,
+                  enableSwipeUp: false,
+                  enableSwipeDown: false,
+                ),
+              ),
+            ],
           ),
         ),
       ),

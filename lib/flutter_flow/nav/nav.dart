@@ -100,6 +100,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => params.isEmpty
               ? NavBarPage(initialPage: 'profile')
               : ProfileWidget(),
+        ),
+        FFRoute(
+          name: 'CreateProfile',
+          path: '/createProfile',
+          builder: (context, params) => CreateProfileWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       urlPathStrategy: UrlPathStrategy.path,

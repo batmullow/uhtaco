@@ -367,8 +367,8 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                         return;
                                       }
 
-                                      context.goNamedAuth(
-                                          'HomePage', context.mounted);
+                                      context.pushNamedAuth(
+                                          'CreateProfile', context.mounted);
                                     },
                                     text: 'Create Account',
                                     options: FFButtonOptions(
@@ -420,6 +420,11 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                                 fontSize: 16.0,
                                                 fontWeight: FontWeight.w600,
                                               ),
+                                          mouseCursor: SystemMouseCursors.click,
+                                          recognizer: TapGestureRecognizer()
+                                            ..onTap = () async {
+                                              context.safePop();
+                                            },
                                         )
                                       ],
                                       style: FlutterFlowTheme.of(context)
