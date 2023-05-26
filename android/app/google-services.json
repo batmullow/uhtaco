@@ -120,6 +120,42 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547910979291:android:43028d6e9f2163dd17c6fe",
+        "android_client_info": {
+          "package_name": "com.mycompany.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8RUm5dlyISjwtzmTBWnBmJPlNcdUjTkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547910979291-3vpgef1sshird92l8bl94iv1q897gg86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547910979291-gevfgm3bmck4h9g87er4d490j4oj2g2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Job.Posts"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

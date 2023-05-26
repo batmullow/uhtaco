@@ -1,4 +1,4 @@
-package Robin.Job.Posts
+package com.mycompany.testing
 
 import io.flutter.embedding.android.FlutterActivity
 
