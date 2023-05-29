@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_calendar.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -115,13 +116,15 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     4.0, 4.0, 4.0, 4.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(50.0),
-                                  child: Image.network(
-                                    'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
-                                    width: 100.0,
-                                    height: 100.0,
-                                    fit: BoxFit.cover,
+                                child: AuthUserStreamWidget(
+                                  builder: (context) => ClipRRect(
+                                    borderRadius: BorderRadius.circular(50.0),
+                                    child: CachedNetworkImage(
+                                      imageUrl: currentUserPhoto,
+                                      width: 100.0,
+                                      height: 100.0,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -135,16 +138,18 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            'David Jerome',
-                            textAlign: TextAlign.center,
-                            style: FlutterFlowTheme.of(context).headlineSmall,
+                          AuthUserStreamWidget(
+                            builder: (context) => Text(
+                              currentUserDisplayName,
+                              textAlign: TextAlign.center,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
+                            ),
                           ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 4.0, 0.0, 0.0),
                             child: GradientText(
-                              'David.j@gmail.com',
+                              currentUserEmail,
                               style: FlutterFlowTheme.of(context)
                                   .labelSmall
                                   .override(

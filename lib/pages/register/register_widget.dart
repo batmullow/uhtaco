@@ -81,12 +81,13 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                             ),
                           ),
                           alignment: AlignmentDirectional(-1.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                32.0, 0.0, 0.0, 0.0),
-                            child: Text(
-                              'brand.ai',
-                              style: FlutterFlowTheme.of(context).displaySmall,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8.0),
+                            child: Image.asset(
+                              'assets/images/Foodpal.png',
+                              width: double.infinity,
+                              height: 207.0,
+                              fit: BoxFit.fill,
                             ),
                           ),
                         ),
